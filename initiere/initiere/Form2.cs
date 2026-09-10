@@ -10,15 +10,11 @@ using System.Windows.Forms;
 
 namespace initiere
 {
-    public partial class Ex1Form : Form
+    public partial class Form2 : Form
     {
-        public Ex1Form()
+        public Form2()
         {
             InitializeComponent();
-          
-            
         }
-
-      
     }
 }

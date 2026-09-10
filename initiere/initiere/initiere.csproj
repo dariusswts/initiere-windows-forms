@@ -58,16 +58,34 @@
     <Compile Include="Ex1Form.Designer.cs">
       <DependentUpon>Ex1Form.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ex2Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ex2Form.Designer.cs">
+      <DependentUpon>Ex2Form.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="App.resx">
       <DependentUpon>App.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ex1Form.resx">
+      <DependentUpon>Ex1Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ex2Form.resx">
+      <DependentUpon>Ex2Form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

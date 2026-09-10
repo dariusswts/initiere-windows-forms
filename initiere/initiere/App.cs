@@ -22,7 +22,13 @@ namespace initiere
             Ex1Form ex1= new Ex1Form();
 
             ex1.Show();
+            
+        }
 
+        private void btnEx2_Click(object sender, EventArgs e)
+        {
+            Ex2Form ex2= new Ex2Form();
+            ex2.Show();
         }
     }
 }
